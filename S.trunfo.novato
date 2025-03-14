@@ -1,5 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    printf()
+    printf("Desafio Novato");
+    int população = 20.000,000;
+    float Área = 10.000,000;
+    float Pib = 30.000,000;
+    int Numero de pontos Turisticos = 20;
+
 }
