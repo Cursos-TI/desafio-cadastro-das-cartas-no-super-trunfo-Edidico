@@ -7,6 +7,13 @@ int main(){
     int Populaçao = 20000000;
     float Área = 10.000.000;
     foatt Pib = 30.000.000;
-    int Número de Pontos Turísticos = 20
+    int Número de Pontos Turísticos = 20;
+
+    printf("Popolaçao %d\n");
+    printf("Área %2f\n");
+    printf("Pib %2f\n");
+    printf("Número de Pontos Turísticos %d\n");
+
+    retun o;
 
 }
