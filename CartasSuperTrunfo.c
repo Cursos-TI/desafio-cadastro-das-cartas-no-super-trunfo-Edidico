@@ -10,7 +10,7 @@ float area1 = 161.38;
 float pib1 = 543;
 int pontosTuristicos1 = 28;
 
-
+char estado2 = 'A';
 
 
 
