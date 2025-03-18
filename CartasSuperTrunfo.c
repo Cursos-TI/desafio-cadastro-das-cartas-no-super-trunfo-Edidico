@@ -6,6 +6,7 @@ char estado1 = 'B';
 char codigo1[] = "B01";
 char nomeCidade1[] = "Brasilia";
 int populacao1 = 1190000;
+float area1 = 161.38;
 
 
 
