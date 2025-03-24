@@ -10,4 +10,7 @@ int main (){
     int pontosturisticos1, pontosturisticos2;
     float area1, area2;
     float pib1, pib2;
+
+    printf("[SEJA BEM-VINDO AO SUPER TRUNFO]\n\n");
+
 }
