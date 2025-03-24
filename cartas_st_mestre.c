@@ -56,7 +56,33 @@ int main (){
 
     // Entrada de dados da segunda carta
 
-    
+    printf("Construa sua segunda carta:\n\n");
+
+    printf("Nome da cidade: ");
+    fgets(cidade2, sizeof(cidade2), stdin);
+
+    printf("Letra do estado: ");
+    scanf(" %c", &estado2);
+
+    printf("Código da carta: ");
+    scanf("%s", codigo2);
+
+    printf("População (N): ");
+    scanf("%d", &população2);
+
+    printf("Área (em km²): ");
+    scanf("%f", &area2);
+
+    printf("PIB (em bilhões): ");
+    scanf("%f", &pib2);
+
+    printf("Número de pontos turísticos: ");
+    scanf("%d", &pontosturisticos2);
+
+    printf("\n\n[CARTA REGISTRADA COM SUCESSO]\n\n");
+
+    //Cálculos
+
 
 
 
