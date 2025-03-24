@@ -24,7 +24,40 @@ int main (){
     printf("PIB (em bilhões): 699.28\n");
     printf("PIB per capita: 56759.74\n");
     printf("Número de pontos turísticos: 50\n");
+ 
+    // Entrada de dados da primeira carta
+
+    printf("\n\nConstrua sua primeira carta:\n\n");
+
+    printf("Nome da cidade: ");
+    fgets(cidade1, sizeof(cidade1), stdin);
+
+    printf("Letra do estado: ");
+    scanf(" %c", &estado1);
+
+    printf("Código da carta: ");
+    scanf("%s", codigo1);
+
+    printf("População (N): ");
+    scanf("%d", &população1);
+
+    printf("Área (em km²): ");
+    scanf("%f", &area1);
+
+    printf("PIB (em bilhões): ");
+    scanf("%f", &pib1);
+
+    printf("Número de pontos turísticos: ");
+    scanf("%d", &pontosturisticos1);
+
+    printf("\n\n[CARTA REGISTRADA COM SUCESSO]\n\n");
+
+    getchar(); // Limpar buffer antes de usar fgets()
+
+    // Entrada de dados da segunda carta
 
     
+
+
 
 }
