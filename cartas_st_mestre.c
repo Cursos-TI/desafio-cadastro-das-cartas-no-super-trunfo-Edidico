@@ -83,6 +83,13 @@ int main (){
 
     //Cálculos
 
+    float densidade1 = população1 / area1;
+    float pib_per_capita1 = (pib1 * 1000000000) / população1;
+    float densidade2 = população2 / area2;
+    float pib_per_capita2 = (pib2 * 1000000000) / população2;
+
+    
+
 
 
 
