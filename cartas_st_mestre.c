@@ -101,7 +101,17 @@ int main (){
     printf("Número de pontos turísticos: %d\n", pontosturisticos1);
 
     // Comparações
+ 
+    printf("\n[RESULTADO DA COMPARACAO]\n\n");
+    
+    printf("População: %s\n", (população1 > população2) ? cidade1 : cidade2);
+    printf("Área: %s\n", (area1 > area2) ? cidade1 : cidade2);
+    printf("Densidade demográfica: %s\n", (densidade1 > densidade2) ? cidade1 : cidade2);
+    printf("PIB: %s\n", (pib1 > pib2) ? cidade1 : cidade2);
+    printf("PIB per capita: %s\n", (pib_per_capita1 > pib_per_capita2) ? cidade1 : cidade2);
+    printf("Número de pontos turísticos: %s\n", (pontosturisticos1 > pontosturisticos2) ? cidade1 : cidade2);
 
+    return 0;
 
 
 
