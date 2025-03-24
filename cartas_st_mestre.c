@@ -100,7 +100,7 @@ int main (){
     printf("PIB per capita: %.2f\n", pib_per_capita1);
     printf("Número de pontos turísticos: %d\n", pontosturisticos1);
 
-    
+    // Comparações
 
 
 
