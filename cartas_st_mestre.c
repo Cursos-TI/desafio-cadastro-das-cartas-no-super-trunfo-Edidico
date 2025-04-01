@@ -111,6 +111,51 @@ int main (){
     printf("PIB per capita: %s\n", (pib_per_capita1 > pib_per_capita2) ? cidade1 : cidade2);
     printf("Número de pontos turísticos: %s\n", (pontosturisticos1 > pontosturisticos2) ? cidade1 : cidade2);
 
+   
+   // Comparação das cartas usando apenas if e else
+   printf("🔍 Comparação de cartas:\n");
+
+   if (populacao1 > populacao2) {
+       printf("✅ População: %s venceu!\n", nomeCidade1);
+   } else {
+       printf("✅ População: %s venceu!\n", nomeCidade2);
+   }
+
+   if (area1 > area2) {
+       printf("✅ Área: %s venceu!\n", nomeCidade1);
+   } else {
+       printf("✅ Área: %s venceu!\n", nomeCidade2);
+   }
+
+   if (pib1 > pib2) {
+       printf("✅ PIB: %s venceu!\n", nomeCidade1);
+   } else {
+       printf("✅ PIB: %s venceu!\n", nomeCidade2);
+   }
+
+   if (pontosTuristicos1 > pontosTuristicos2) {
+       printf("✅ Pontos Turísticos: %s venceu!\n", nomeCidade1);
+   } else {
+       printf("✅ Pontos Turísticos: %s venceu!\n", nomeCidade2);
+   }
+
+   // Determinação do vencedor final sem contagem de pontos
+   printf("\n🏆 Resultado Final: ");
+   
+   if ((populacao1 > populacao2 && area1 > area2) || 
+       (populacao1 > populacao2 && pib1 > pib2) || 
+       (populacao1 > populacao2 && pontosTuristicos1 > pontosTuristicos2) || 
+       (area1 > area2 && pib1 > pib2) || 
+       (area1 > area2 && pontosTuristicos1 > pontosTuristicos2) || 
+       (pib1 > pib2 && pontosTuristicos1 > pontosTuristicos2)) {
+       printf("%s venceu o duelo!\n", nomeCidade1);
+   } else {
+       printf("%s venceu o duelo!\n", nomeCidade2);
+   }
+
+   
+   
+   
     return 0;
 
 
